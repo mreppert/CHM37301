@@ -8,6 +8,7 @@
 toolDirectory=$(dirname $(dirname $0))
 userDirectory=${HOME}/CHM37301user
 
+mkdir -p ${userDirectory}/git
 mkdir -p ${userDirectory}/local
 cp -f ${toolDirectory}/main.ipynb ${userDirectory}
 
